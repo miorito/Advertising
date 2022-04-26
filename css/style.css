@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Luminari;
+    padding: 10px;
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm120-ken-58-croppedbackground.jpg?w=600&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=dd76ea578d8742c49a61ae1e297c3640");
+}
+
+.error{
+    color: red;
+    font-family: Luminari;
+    font-size: 50;
+}
+
+a:link, a:visited {
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm120-ken-56-croppedbackground.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e89b343f1fecab327a10aa828a436b06");
+    color:  #000;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Luminari;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+a:hover, a:active {
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm33-chim-12-a-marble_1_1.jpg?w=1000&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=48dd0d758fc3326d27f0c53fdab4f6a3");
+}
+
+button {
+    display: inline-block;
+    font-family: Luminari;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm120-ken-56-croppedbackground.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e89b343f1fecab327a10aa828a436b06");
+    border: 1;
+    border-radius: 10px;
+}
+
+button:hover, button:active {
+    color: white;
+    text-shadow: 1px 1px 5px #222;
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm33-chim-12-a-marble_1_1.jpg?w=1000&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=48dd0d758fc3326d27f0c53fdab4f6a3");
+}
+
+.text{
+    width: 150px;
+    padding: 0 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: url("https://i.pinimg.com/564x/81/6d/81/816d81da00f198ebd81e5f5ee23ad6b3.jpg");
+    opacity: 1;
+    margin-top: 20px;
+    position: relative;
+}
